@@ -2,113 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Abdullah | Virtual Assistant Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    body {
-      font-family: 'Inter', sans-serif;
-      background: #f5f7fa;
-      color: #333;
-      line-height: 1.6;
-      padding: 2rem;
-    }
-    header {
-      text-align: center;
-      margin-bottom: 3rem;
-      animation: fadeIn 1.2s ease-in-out;
-    }
-    header h1 {
-      font-size: 2.5rem;
-      color: #344e41;
-    }
-    header p {
-      color: #6c757d;
-      font-size: 1.1rem;
-    }
-    section {
-      background: #ffffff;
-      border-radius: 1rem;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
-      animation: slideUp 1s ease-in-out;
-    }
-    h2 {
-      color: #588157;
-      margin-bottom: 1rem;
-    }
-    ul {
-      padding-left: 1.5rem;
-    }
-    @keyframes fadeIn {
-      from {opacity: 0;}
-      to {opacity: 1;}
-    }
-    @keyframes slideUp {
-      from {transform: translateY(30px); opacity: 0;}
-      to {transform: translateY(0); opacity: 1;}
-    }
-    .tag {
-      background-color: #e9f5f2;
-      display: inline-block;
-      padding: 0.3rem 0.6rem;
-      border-radius: 5px;
-      font-size: 0.9rem;
-      margin: 0.2rem;
-      color: #3a5a40;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Abdullah's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Abdullah</h1>
-    <p>Virtual Assistant | IT Enthusiast | Back Office Expert</p>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Abdullah</h1>
+      <p>Virtual Assistant | IT Enthusiast | Customer Support Specialist</p>
+    </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>I’m a detail-oriented Virtual Assistant with a strong background in travel consultancy, back-office operations, and IT. With years of experience in high-pressure environments, I specialize in helping busy professionals stay organized, efficient, and focused on what matters most.</p>
-  </section>
+    <section class="section">
+      <h2>About Me</h2>
+      <p>I'm a passionate Virtual Assistant and IT learner with years of customer service experience. Currently working at Sony Middle East & Africa as a Back Office team member. I'm actively expanding my tech skills and aiming for a future in front-end development.</p>
+    </section>
 
-  <section>
-    <h2>Skills</h2>
-    <div>
-      <span class="tag">Email Management</span>
-      <span class="tag">Calendar Management</span>
-      <span class="tag">Microsoft Office</span>
-      <span class="tag">Google Workspace</span>
-      <span class="tag">Travel Booking</span>
-      <span class="tag">Task Coordination</span>
-      <span class="tag">Basic HTML/CSS</span>
-      <span class="tag">Remote Communication</span>
-    </div>
-  </section>
+    <section class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>Customer Support & Communication</li>
+        <li>Virtual Assistance & Task Management</li>
+        <li>Front-End: HTML & CSS (in progress)</li>
+        <li>Time Management & Organization</li>
+        <li>Remote Tools: Google Workspace, Slack, Trello</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Experience</h2>
-    <ul>
-      <li><strong>Back Office Assistant – Sony Middle East and Africa FZE</strong><br/>Supporting cross-functional operations, documentation, and data accuracy.</li>
-      <li><strong>Senior Travel Consultant</strong><br/>Handled premium travel bookings and client relations for corporate and individual clients.</li>
-      <li><strong>Senior Trainer – Teleperformance (Etihad Airways)</strong><br/>Created assessments, managed team performance, and led internal upskilling sessions.</li>
-      <li><strong>Travel Advisor SME – Egypt Air Account</strong><br/>Monitored floor agents, assisted new hires, and ensured service excellence.</li>
-      <li><strong>Customer Service – Vodafone UK</strong><br/>Managed customer inquiries and provided top-tier support through multiple channels.</li>
-    </ul>
-  </section>
+    <section class="section">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Back Office</strong> – Sony Middle East & Africa (Current)</li>
+        <li><strong>Senior Travel Consultant</strong></li>
+        <li><strong>Senior Trainer</strong> – Teleperformance (Etihad Airways)</li>
+        <li><strong>Travel Advisor SME</strong> – Egypt Air</li>
+        <li><strong>Customer Service Agent</strong> – Vodafone UK</li>
+      </ul>
+    </section>
 
-  <section>
-    <h2>Virtual Assistant & IT Journey</h2>
-    <p>Currently building a strong foundation in IT, front-end development, and pursuing certifications while gaining hands-on experience with task and communication tools used by top-tier virtual assistants. Constantly learning, growing, and adapting.</p>
-  </section>
+    <section class="section">
+      <h2>Virtual Assistant & IT Journey</h2>
+      <p>I began my VA journey with platforms like 20four7VA and InboxDone, building experience with productivity tools and remote workflows. I'm also pursuing self-learning in HTML/CSS and front-end development, with my portfolio now live on GitHub Pages.</p>
+    </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: abdu.allam@icloud.com<br/> Phone: +971544328294 <br/> Location: UAE (Available Remotely)</p>
-  </section>
+    <section class="section">
+      <h2>Sample Project</h2>
+      <p>This portfolio is my first front-end project using HTML and CSS. Hosted on GitHub Pages, it's part of my practical learning in web development.</p>
+      <a href="https://your-portfolio-link.github.io/" target="_blank" class="btn">View Project</a>
+    </section>
+
+    <section class="section">
+      <h2>Download My Resume</h2>
+      <a href="resume.pdf" class="btn" download>Download PDF</a>
+    </section>
+
+    <section class="section">
+      <h2>Contact Me</h2>
+      <p>Email: your.email@example.com</p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/yourname" target="_blank">linkedin.com/in/yourname</a></p>
+    </section>
+  </div>
 </body>
 </html>
